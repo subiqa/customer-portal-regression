@@ -1,0 +1,19 @@
+{
+  "name": "learn-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.48.2",
+    "@types/node": "^22.7.9",
+    "mailslurp-client": "^15.20.2",
+    "playwright": "^1.48.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
