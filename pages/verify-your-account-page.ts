@@ -25,12 +25,12 @@ export class VerifyYourAccountPage {
     this.page = page;
     this.getPioneerCreditLogo = page.getByRole('link', { name: 'Logo of Pioneer Credit' });
     this.getVerifyYourAccountHeading = page.getByRole('heading', { name: 'Verify your account' });
-    this.getVerifyYourAccountDescription = page.getByText('A verification code will be');
+    this.getVerifyYourAccountDescription = page.getByText('A verification code will be sent to the following email address');
     this.getEmailLabel = page.locator('#readOnlyEmail_label');
     this.getEmailTextbox = page.getByPlaceholder('Email', { exact: true });
     this.getEmailSendCodeButton = page.getByLabel('Send code');
     this.getContactUsLink = page.getByRole('link', { name: 'Having trouble? Contact us' });
-    this.getWebChat = page.getByRole('button', {name: 'Launch chat button'});
+    this.getWebChat = page.getByRole('button', {name: 'Launch chat'});
     this.getEmailVerificationCodeLabel = page.getByText('Verification code', { exact: true })
     this.getEmailVerificationCodeTextbox = page.getByPlaceholder('Verification code');
     this.getEmailVerifyCodeButton = page.getByLabel('Verify code');

@@ -1,0 +1,50 @@
+{
+    "Visa":{
+        "cardNumber":"4987654321098769",
+        "cardExpiry":"06/29",
+        "cardCCV":"752",
+        "cardName":"Subi Visa"
+    },
+    "Mastercard":{
+        "cardNumber":"5123456789012346",
+        "cardExpiry":"11/28",
+        "cardCCV":"468",
+        "cardName":"Subi Mastercard"
+    },
+    "InvalidCardAllEmpty":{
+        "cardNumber":"",
+        "cardExpiry":"",
+        "cardCCV":"",
+        "cardName":""
+    },
+    "InvalidCardIncorrectCardNumber":{
+        "cardNumber":"1234123412341234",
+        "cardExpiry":"06/27",
+        "cardCCV":"357",
+        "cardName":"Subi Test"
+    },
+    "InvalidCardNumberLessThan16Digits":{
+        "cardNumber":"1234",
+        "cardExpiry":"06/27",
+        "cardCCV":"357",
+        "cardName":"Subi Test"
+    },
+    "InvalidCardExpiry":{
+        "cardNumber":"4987654321098769",
+        "cardExpiry":"12/24",
+        "cardCCV":"357",
+        "cardName":"Subi Test"
+    },
+    "InvalidCardCCVMoreThan":{
+        "cardNumber":"4987654321098769",
+        "cardExpiry":"12/29",
+        "cardCCV":"35798",
+        "cardName":"Subi Test"
+    },
+    "InvalidCardCCVLessThan":{
+        "cardNumber":"4987654321098769",
+        "cardExpiry":"12/29",
+        "cardCCV":"38",
+        "cardName":"Subi Test"
+    }
+}

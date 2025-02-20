@@ -1,5 +1,4 @@
 import { expect, type Locator, type Page } from '@playwright/test';
-import { Helper } from './helpers';
 
 export class SetUpPage {
   readonly page: Page;
@@ -18,6 +17,7 @@ export class SetUpPage {
   readonly getMissingMFAErrorBackButton: Locator;
   readonly getEmptyCustomerNumberError: Locator;
   readonly getLessThan7DigitsError: Locator;
+  readonly getBackButton: Locator;
 
   constructor(page: Page) {
     this.page = page;
@@ -30,12 +30,13 @@ export class SetUpPage {
     this.getYear = page.getByLabel('Year');
     this.getNextButton = page.getByLabel('Next');
     this.getCancelButton = page.getByLabel('Cancel');
-    this.getWebChat = page.getByLabel('Launch chat button');
+    this.getWebChat = page.getByLabel('Launch chat');
     this.getMissingMFAErrorTitle = page.getByRole('heading', { name: 'Sorry, the login info you\'ve entered doesn\'t match our records' });
-    this.getMissingMFAErrorDesc = page.locator('#errorMessage');
+    this.getMissingMFAErrorDesc = page.getByLabel('Please check you are using your customer number (not account number) or call us on 1300 720 823');
     this.getMissingMFAErrorBackButton = page.getByRole('button', { name: 'Back' });
     this.getEmptyCustomerNumberError = page.getByText('This information is required.');
     this.getLessThan7DigitsError = page.getByText('Please enter 7 digit customer');
+    this.getBackButton = page.getByRole('button', { name: 'Back' });
 
   }
 

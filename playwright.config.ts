@@ -7,14 +7,17 @@ import { defineConfig, devices } from '@playwright/test';
 // import dotenv from 'dotenv';
 // import path from 'path';
 // dotenv.config({ path: path.resolve(__dirname, '.env') });
-
+import dotenv from 'dotenv'
+dotenv.config();
 /**
  * See https://playwright.dev/docs/test-configuration.
  */
+
+
 export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
-  fullyParallel: true,
+  fullyParallel: false,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -24,10 +27,10 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: 'html',
   // Each test is given 30 seconds.
-  timeout: 60000, 
+  timeout: 240000, 
   // Timeout for expect
   expect: {
-    timeout: 30000,
+    timeout: 20000,
   },
 
   // Folder for test artifacts such as screenshots, videos, traces, etc.

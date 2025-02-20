@@ -1,5 +1,5 @@
 import { expect, type Locator, type Page } from '@playwright/test';
-import { Helper } from './helpers';
+import { Helper } from '../helper/helpers';
 
 export class LoginPage {
   readonly page: Page;
@@ -46,7 +46,7 @@ export class LoginPage {
     this.getLoginButton = page.getByRole('button', { name: 'Log in' });
     this.getSignUpLink = page.getByRole('link', { name: 'Sign up now' });
     this.getTnCLink = page.getByRole('link', { name: 'Terms and Conditions' });
-    this.getWebChat = page.getByRole('button', {name: 'Launch chat button'});
+    this.getWebChat = page.getByLabel('Launch chat');
     this.getPrivacyLink = page.getByRole('link', { name: 'Privacy Policy' });
     this.getMissingCustomerNumberMessage = page.getByText('Please enter your Customer Number');
     this.getMissingPasswordMessage = page.getByText('Please enter your password');

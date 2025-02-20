@@ -1,0 +1,14 @@
+{
+    "validInputNoPhoneNumber":{
+        "date":"2025-01-08",
+        "time":"09:00,11:00",
+        "state":"NSW",
+        "phoneNumber":""
+    },
+    "validInputWithPhoneNumber":{
+        "date":"2025-01-08",
+        "time":"09:00,11:00",
+        "state":"NSW",
+        "phoneNumber":"0412345678"
+    }
+}

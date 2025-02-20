@@ -8,12 +8,14 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@playwright/test": "^1.48.2",
+    "@playwright/test": "^1.49.1",
     "@types/node": "^22.7.9",
+    "dotenv": "^16.4.7",
     "mailslurp-client": "^15.20.2",
     "playwright": "^1.48.2"
   },
   "dependencies": {
-    "dotenv": "^16.4.5"
+    "date-and-time": "^3.6.0",
+    "get-nearest-day-of-week": "^0.1.3"
   }
 }
