@@ -1,6 +1,6 @@
 {
     "SingleAccountNoPhoneNumber":{
-        "customerNumber":"1024237",
+        "customerNumber":"1024237xx",
         "password":"Banana01",
         "accountNumber":"1024251",
         "paymentAmountNegative":"-100",
@@ -10,7 +10,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPhoneNumber":{
-        "customerNumber":"1024236",
+        "customerNumber":"1024236xx",
         "password":"Banana01",
         "accountNumber":"1024250",
         "paymentAmountNegative":"-100",
@@ -20,7 +20,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanWeeklyBank":{
-        "customerNumber":"1024238",
+        "customerNumber":"1024238xx",
         "password":"Banana01",
         "accountNumber":"1024252",
         "paymentAmountNegative":"-100",
@@ -30,7 +30,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanFortnightlyBank":{
-        "customerNumber":"1024421",
+        "customerNumber":"1024421xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -40,7 +40,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanMonthlyBank":{
-        "customerNumber":"1024422",
+        "customerNumber":"1024422xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -50,7 +50,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanWeeklyCard":{
-        "customerNumber":"1024423",
+        "customerNumber":"1024423xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -60,7 +60,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanFortnightlyCard":{
-        "customerNumber":"1024424",
+        "customerNumber":"1024424xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -70,7 +70,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanMonthlyCard":{
-        "customerNumber":"1024425",
+        "customerNumber":"1024425xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -80,7 +80,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanEditAmount":{
-        "customerNumber":"1024426",
+        "customerNumber":"1024426xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -90,7 +90,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanEditFrequency":{
-        "customerNumber":"1024427",
+        "customerNumber":"1024427xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -100,7 +100,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanEditPayMethod":{
-        "customerNumber":"1024428",
+        "customerNumber":"1024428xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -110,7 +110,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountNoPaymentPlanEditAll":{
-        "customerNumber":"1024429",
+        "customerNumber":"1024429xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -120,7 +120,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPaymentPlanWeeklyBank":{
-        "customerNumber":"1024430",
+        "customerNumber":"1024430xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -130,7 +130,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPaymentPlanFortnightlyBank":{
-        "customerNumber":"1024431",
+        "customerNumber":"1024431xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -140,7 +140,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPaymentPlanMonthlyBank":{
-        "customerNumber":"1024431",
+        "customerNumber":"1024431xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -150,7 +150,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPaymentPlanWeeklyCard":{
-        "customerNumber":"1024432",
+        "customerNumber":"1024432xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -160,7 +160,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPaymentPlanFortnightlyCard":{
-        "customerNumber":"1024433",
+        "customerNumber":"1024433xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
@@ -170,7 +170,7 @@
         "paymentAmountNormal":"100"
     },
     "SingleAccountWithPaymentPlanMonthlyCard":{
-        "customerNumber":"1024434",
+        "customerNumber":"1024434xx",
         "password":"Banana01",
         "accountNumber":"",
         "paymentAmountNegative":"-100",
